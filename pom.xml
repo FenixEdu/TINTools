@@ -1,0 +1,38 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+	<groupId>org.fenixedu</groupId>
+        <artifactId>fenix-framework-project</artifactId>
+        <version>2.2.0</version>
+    </parent>
+
+    <artifactId>tinTools</artifactId>
+    <name>TINTools</name>
+    <version>DEV-SNAPSHOT</version>
+    <packaging>jar</packaging>
+
+    <scm>
+	<connection>scm:git:git@github.com:Luis-Cruz/TINTools.git</connection>
+        <developerConnection>scm:git:git@github.com:Luis-Cruz/TINTools.git</developerConnection>
+        <url>https://github.com/Luis-Cruz/TINTools</url>
+        <tag>HEAD</tag>
+    </scm>
+
+    <repositories>
+        <repository>
+            <id>fenixedu-maven-repository</id>
+            <url>https://repo.fenixedu.org/fenixedu-maven-repository</url>
+        </repository>
+    </repositories>
+
+    <dependencies>
+        <dependency>
+            <groupId>eu.europa.ec.taxud</groupId>
+            <artifactId>tin-algorithm</artifactId>
+            <version>5.2.2_PUBLIC</version>
+        </dependency>
+    </dependencies>
+
+</project>
+
