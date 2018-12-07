@@ -9,7 +9,7 @@
 
     <artifactId>tinTools</artifactId>
     <name>TINTools</name>
-    <version>DEV-SNAPSHOT</version>
+    <version>1.1.0</version>
     <packaging>jar</packaging>
 
     <scm>
